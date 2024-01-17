@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Own Portfolio</title>
+
+    <!-- box icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Tech Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Khushvendra Mathur</h1>
+            <h3>And I'm a <span>Data Engineer</span></h3>
+            <p>I am a Data Science Engineer with a ability to adapt skills in other domain. I have some basic Knowledge
+                of Front-End Web Development.</p>
+            <div class="social-media">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img class="home-img-new" src="images/tuxpi.com.1701923856.jpg" alt="">
+
+        </div>
+    </section>
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/page2.JPG">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Data Science Engineer</h3>
+            <p>I am innovative, creative, adaptable to change, a fast learner, and always stays one step ahead of my
+                competitors. Eager to
+                obtain a challenging position at a prestigious company that will expand my learning and build upon my
+                developer skills.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- My Skills section section design -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Tech Skills</span></h2>
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Programming: C/C++, Python</h3>
+                <p>Unlock the power of seamless and efficient coding with my programming language expertise. From
+                    crafting clean and robust code to optimizing performance, I specialize in a diverse range of
+                    programming languages. I bring proficiency in languages like Python, C/C++ and more.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="skills-box">
+                <i class='bx bx-data'></i>
+                <h3>Data Analysis & Visualization</h3>
+                <p>Uncover meaningful insights, spot trends, and make informed decisions through the power of data. I
+                    use tools like Python, R, and SQL. Transforming raw data into compelling visual narratives, using
+                    cutting-edge visualization
+                    and business intelligence tools such as Matplotlib and Microsoft PowerBI.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="skills-box">
+                <i class='bx bx-code-block'></i>
+                <h3>Front-End Development</h3>
+                <p>I specialize in bringing ideas to life on the web. With a keen eye for design and a mastery of
+                    frontend technologies such as HTML, CSS, and JavaScript, I create visually stunning and highly
+                    responsive websites.From intuitive user interfaces
+                    to seamless interactions, every project is approached with creativity and precision.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>HACKTHON Project</h4>
+                    <p>Ptraction: A platform for parent to track their Child's overall performance in schools for
+                        understanding their child's mindset and help them in there internal Development. </p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>DRDO Project</h4>
+                    <p>Social Networking Ads: Worked on the Dataset of Social Networking Ads. Applied various Machine
+                        Learning Models To check the Accuracy of the Dataset.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>PowerBI Project</h4>
+                    <p>Created a interactive Dashborad for a small company Axon, which sells classic cars. A BI tool,
+                        PowerBI is used that can help them manage and analyze their sales data effectively. </p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Khushvendra | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-icontop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
